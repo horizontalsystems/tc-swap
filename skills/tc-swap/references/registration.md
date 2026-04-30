@@ -5,7 +5,7 @@ Registration is a one-time step. Skip this if you already have an `agentKey`.
 ## Register
 
 ```
-POST $TCSWAP_BASE_URL/register
+POST https://api.thorchain.org/agent/register
 Content-Type: application/json
 ```
 
@@ -31,7 +31,7 @@ Store `agentKey` as `TCSWAP_AGENT_KEY`. It is shown only once.
 ## Check Agent Status
 
 ```
-GET $TCSWAP_BASE_URL/me
+GET https://api.thorchain.org/agent/me
 X-Agent-Key: $TCSWAP_AGENT_KEY
 ```
 

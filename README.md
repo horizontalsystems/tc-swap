@@ -14,17 +14,16 @@ npx clawhub@latest install tc-swap
 
 ## Setup
 
-Set these environment variables before using the skill:
+Set this environment variable before using the skill:
 
 ```
-TCSWAP_BASE_URL=https://api.thorchain.org/agent
 TCSWAP_AGENT_KEY=<your-agent-key>
 ```
 
 Register once to get your `TCSWAP_AGENT_KEY`:
 
 ```bash
-curl -X POST $TCSWAP_BASE_URL/register \
+curl -X POST https://api.thorchain.org/agent/register \
   -H "Content-Type: application/json" \
   -d '{"name": "my-agent"}'
 ```

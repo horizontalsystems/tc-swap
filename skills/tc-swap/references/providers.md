@@ -30,7 +30,7 @@ Both providers are decentralized DEXes — no AML blocking, no KYC.
 ## Token Lists
 
 ```
-GET $TCSWAP_BASE_URL/v1/tokens?provider=THORCHAIN
+GET https://api.thorchain.org/agent/v1/tokens?provider=THORCHAIN
 X-Agent-Key: $TCSWAP_AGENT_KEY
 ```
 
@@ -39,7 +39,7 @@ Returns supported tokens for the given provider.
 ## List Providers
 
 ```
-GET $TCSWAP_BASE_URL/v1/providers
+GET https://api.thorchain.org/agent/v1/providers
 X-Agent-Key: $TCSWAP_AGENT_KEY
 ```
 

@@ -1,7 +1,7 @@
 # Tracking Swaps
 
 ```
-POST $TCSWAP_BASE_URL/v1/track
+POST https://api.thorchain.org/agent/v1/track
 Content-Type: application/json
 X-Agent-Key: $TCSWAP_AGENT_KEY
 ```

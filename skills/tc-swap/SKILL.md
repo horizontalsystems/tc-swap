@@ -11,13 +11,12 @@ metadata:
     requires:
       env:
         - TCSWAP_AGENT_KEY
-        - TCSWAP_BASE_URL
 ---
 
 # TC Swap — THORChain & Mayachain
 
 All requests require `X-Agent-Key: $TCSWAP_AGENT_KEY` header.  
-Base URL: `$TCSWAP_BASE_URL` (e.g. `https://api.thorchain.org/agent`)
+Base URL: `https://api.thorchain.org/agent`
 
 ## Task Routing
 

@@ -3,7 +3,7 @@
 ## Step 1 — Dry Quote (compare routes)
 
 ```
-POST $TCSWAP_BASE_URL/v1/quote
+POST https://api.thorchain.org/agent/v1/quote
 Content-Type: application/json
 X-Agent-Key: $TCSWAP_AGENT_KEY
 ```
