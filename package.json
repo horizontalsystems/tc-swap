@@ -1,0 +1,8 @@
+{
+  "name": "tc-swap",
+  "version": "1.0.0",
+  "files": ["skills/"],
+  "description": "AI agent skill for THORChain and Mayachain swaps",
+  "author": "Horizontal Systems",
+  "license": "MIT"
+}
